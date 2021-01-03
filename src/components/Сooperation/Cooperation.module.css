@@ -1,0 +1,40 @@
+.cooperation {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cooperation_text {
+  width: 330px;
+  font-size: 24px;
+  text-align: justify;
+}
+.cooperation_photo {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-color: #2B6374;
+}
+.cooperation_button {
+  position: relative;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+.cooperation_button a {
+  font-size: 40px;
+  color: #000;
+  text-decoration: none;
+}
+
+.cooperation_button::after {
+  content: "";
+  position: absolute;
+  width: 180px;
+  height: 20%;
+  background-color: #2B6374;
+  opacity: 0.7;
+  bottom: 9px;
+  left: 37%;
+  z-index: -1;
+}
